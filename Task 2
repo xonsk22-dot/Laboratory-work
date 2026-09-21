@@ -1,0 +1,146 @@
+print('Выберите исходную единицу измерения: ')
+print('1 - Километры')
+print('2 - Метры')
+print('3 - Сантиметры')
+print('4 - Миллиметры')
+print('5 - Мили')
+print('6 - Ярды')
+
+choice = int(input('Введите номер исходного значения: '))
+
+print('Выберите целевую единицу измерения: ')
+print('1 - Километры')
+print('2 - Метры')
+print('3 - Сантиметры')
+print('4 - Миллиметры')
+print('5 - Мили')
+print('6 - Ярды')
+
+cel = int(input('Введите номер целевого значения: '))
+
+Zn = float(input('Введите число для конвертации: '))
+
+if choice == 1 and cel == 2:
+    result = Zn * 1000
+    print('Результат:', result)
+
+if choice == 2 and cel == 1:
+    result = Zn / 1000
+    print('Результат:', result)
+
+if choice == 1 and cel == 3:
+    result = Zn * 100000
+    print('Результат:', result)
+
+if choice == 3 and cel == 1:
+    result = Zn / 100000
+    print('Результат:', result)
+
+if choice == 1 and cel == 4:
+    result = Zn * 1000000
+    print('Результат:', result)
+
+if choice == 4 and cel == 1:
+    result = Zn / 1000000
+    print('Результат:', result)
+
+if choice == 1 and cel == 5:
+    result = Zn / 1.609344
+    print('Результат:', result)
+
+if choice == 5 and cel == 1:
+    result = Zn * 1.609344
+    print('Результат:', result)
+
+if choice == 1 and cel == 6:
+    result = Zn * 1093.6133
+    print('Результат:', result)
+
+if choice == 6 and cel == 1:
+    result = Zn / 1093.6133
+    print('Результат:', result)
+
+if choice == 2 and cel == 3:
+    result = Zn * 100
+    print('Результат:', result)
+
+if choice == 3 and cel == 2:
+    result = Zn / 100
+    print('Результат:', result)
+
+if choice == 2 and cel == 4:
+    result = Zn * 1000
+    print('Результат:', result)
+
+if choice == 4 and cel == 2:
+    result = Zn / 1000
+    print('Результат:', result)
+
+if choice == 2 and cel == 5:
+    result = Zn / 1609.344
+    print('Результат:', result)
+
+if choice == 5 and cel == 2:
+    result = Zn * 1609.344
+    print('Результат:', result)
+
+if choice == 2 and cel == 6:
+    result = Zn * 1.0936133
+    print('Результат:', result)
+
+if choice == 6 and cel == 2:
+    result = Zn / 1.0936133
+    print('Результат:', result)
+
+if choice == 3 and cel == 4:
+    result = Zn * 10
+    print('Результат:', result)
+
+if choice == 4 and cel == 3:
+    result = Zn / 10
+    print('Результат:', result)
+
+if choice == 3 and cel == 5:
+    result = Zn / 160934.4
+    print('Результат:', result)
+
+if choice == 5 and cel == 3:
+    result = Zn * 160934.4
+    print('Результат:', result)
+
+if choice == 3 and cel == 6:
+    result = Zn / 91.44
+    print('Результат:', result)
+
+if choice == 6 and cel == 3:
+    result = Zn * 91.44
+    print('Результат:', result)
+
+if choice == 4 and cel == 5:
+    result = Zn / 1609344
+    print('Результат:', result)
+
+if choice == 5 and cel == 4:
+    result = Zn * 1609344
+    print('Результат:', result)
+
+if choice == 4 and cel == 6:
+    result = Zn / 914.4
+    print('Результат:', result)
+
+if choice == 6 and cel == 4:
+    result = Zn * 914.4
+    print('Результат:', result)
+
+if choice == 5 and cel == 6:
+    result = Zn * 1760
+    print('Результат:', result)
+
+if choice == 6 and cel == 5:
+    result = Zn / 1760
+    print('Результат:', result)
+
+if choice == cel:
+    result = Zn
+    print('Результат:', result)
+
